@@ -1,0 +1,68 @@
+.header {
+    display: flex;
+    justify-content: center;
+    background-image: url(https://img.freepik.com/free-vector/blue-copy-space-digital-background_23-2148821698.jpg?size=626&ext=jpg);
+    font-family: cursive;
+    color: white;
+}
+
+
+
+.grid {
+    background-image: url(https://wallpaperaccess.com/full/187161.jpg);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: serif;
+
+}
+
+.grid img {
+    border: 2px solid black;
+    border-radius: 50px;
+    border-color: white;border
+
+}
+
+.item {
+    position:relative;
+}
+
+.item h2 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    background-color: blue;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 10px;
+}
+
+.item:hover h2 {
+    opacity: 1;
+}
+
+.item:hover img {
+    opacity: 0.4;
+}
+
+a:link {
+    color: greenyellow; 
+ }
+ 
+ a:visited {
+     color: black;
+ }
+
